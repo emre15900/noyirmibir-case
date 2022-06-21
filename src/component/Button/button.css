@@ -11,3 +11,27 @@
   text-transform: uppercase;
   color: #ed1c24;
 }
+
+.slider_button.red {
+  background: #ed1c24;
+  border-radius: 2px;
+  gap: 10px;
+  padding: 16px 41.5px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.slider_button.pink {
+  background: #fde4e5;
+  border-radius: 2px;
+  gap: 10px;
+  padding: 16px 41.5px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ed1c24;
+}
+
+.slider_button.big {
+  padding: 16px 72px;
+}
