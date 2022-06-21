@@ -1,0 +1,12 @@
+.header_right {
+  display: flex;
+  align-items: center;
+  color: #400e03;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
