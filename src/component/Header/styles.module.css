@@ -1,3 +1,6 @@
+.header{
+  background: #FFFFFF;
+}
 .header_right {
   display: flex;
   align-items: center;

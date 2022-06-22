@@ -9,6 +9,7 @@ function App() {
         <Header />
         <Slider />
         <SwiperModule />
+        <br /> <br /> <br /> <br />
     </div>
   );
 }
