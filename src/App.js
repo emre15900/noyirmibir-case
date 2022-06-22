@@ -1,6 +1,6 @@
+import SwiperModule from './component/Swiper/SwiperModule';
 import './App.css';
 import Header from './component/Header/Header';
-import Products from './component/Products/Products';
 import Slider from './component/Slider/Slider';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
         <Header />
         <Slider />
-        <Products />
+        <SwiperModule />
     </div>
   );
 }
