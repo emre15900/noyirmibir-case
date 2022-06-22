@@ -11,7 +11,7 @@ import { Pagination, Navigation } from "swiper";
 
 function SwiperModule() {
   return (
-    <Container maxW="container.xl">
+    <Container maxW="1600px" paddingRight={5} paddingLeft={5}>
       <Box as="h1" fontSize="3xl">
         Featured Products
       </Box>
@@ -22,7 +22,24 @@ function SwiperModule() {
           clickable: true,
           dynamicBullets: true,
         }}
-        cssMode={true}
+        breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 60,
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 60,
+            },
+            1024: {
+              slidesPerView: 2,
+              spaceBetween: 70,
+            },
+            1400: {
+                slidesPerView: 3,
+                spaceBetween: 70,
+              },
+          }}
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
