@@ -12,7 +12,7 @@ import { Pagination, Navigation } from "swiper";
 function SwiperModule() {
   return (
     <Container maxW="1600px" paddingRight={5} paddingLeft={5}>
-      <Box as="h1" fontSize="3xl">
+      <Box as="h1" className="swiper_hood">
         Featured Products
       </Box>
       <Swiper
@@ -25,11 +25,11 @@ function SwiperModule() {
         breakpoints={{
             320: {
               slidesPerView: 1,
-              spaceBetween: 60,
+              spaceBetween: 70,
             },
             768: {
               slidesPerView: 1,
-              spaceBetween: 60,
+              spaceBetween: 70,
             },
             1024: {
               slidesPerView: 2,
