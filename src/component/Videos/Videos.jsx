@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 
 function Videos() {
   return (
-    <Box className={styles.video_page}>
+    <Box className={styles.video_page} id="guides-videos">
       <Flex className={styles.video_head}>
         <Box className={styles.video_hood}>
           Feel the excellent wet braking with Driveways!

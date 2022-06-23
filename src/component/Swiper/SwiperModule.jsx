@@ -11,7 +11,7 @@ import { Pagination, Navigation } from "swiper";
 
 function SwiperModule() {
   return (
-    <Container maxW="1600px" paddingRight={5} paddingLeft={5}>
+    <Container maxW="1600px" paddingRight={5} paddingLeft={5} id="find-dealer">
       <Box as="h1" className="swiper_hood">
         Featured Products
       </Box>

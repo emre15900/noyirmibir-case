@@ -7,7 +7,7 @@ import Button from "../Button/Button";
 function Slider() {
   return (
     <div>
-      <Box className={styles.slider}>
+      <Box className={styles.slider} id="show-all">
         <Image src={slider} alt="product" />
         <Box className={styles.slider_over}>
           <Text className={styles.slider_text}>
