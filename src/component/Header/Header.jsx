@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./styles.module.css";
 import { Flex, Spacer, Box, Image, color } from "@chakra-ui/react";
 import logo from "../../images/logo.svg";
+import "./active.css"
 import { Link } from "react-scroll";
 import HamburgerMenu from "../Menu/HamburgerMenu";
-import "./active.css"
 
 function Header() {
 
@@ -23,7 +23,7 @@ function Header() {
           </Link>
         </Box>
         <Spacer />
-        <Box className={styles.header_right}>
+        <Box className={styles.header_right} id="header_right">
           <Link
             to="show-all"
             spy={true}
