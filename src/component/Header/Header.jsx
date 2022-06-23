@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { Flex, Spacer, Box, Image, Menu, MenuButton } from "@chakra-ui/react";
-import { HamburgerIcon } from '@chakra-ui/icons'
+import { Flex, Spacer, Box, Image } from "@chakra-ui/react";
 import logo from "../../images/logo.svg";
 import { Link } from "react-router-dom";
+import HamburgerMenu from "../Menu/HamburgerMenu";
 
-function Header({ IconButton}) {
+function Header() {
   return (
     <div className={styles.header}>
       <Flex>
-        <Box p="4" display="flex" alignItems="center">
+        <Box className={styles.header_logo}>
           <Link to="/">
             <Image src={logo} alt="product" />
           </Link>
@@ -33,9 +33,7 @@ function Header({ IconButton}) {
           </Link>
         </Box>
         <Box className={styles.header_menu}>
-          <Menu>
-            HAMBURGER MENU
-          </Menu>
+          <HamburgerMenu />
         </Box>
       </Flex>
     </div>
