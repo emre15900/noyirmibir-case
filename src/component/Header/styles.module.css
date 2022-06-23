@@ -14,6 +14,14 @@
   text-transform: uppercase;
 }
 
+.header_right a {
+  transition: color 0.2s ease;
+}
+
+.header_right a:hover {
+  color: #ed1c24;
+}
+
 .header_logo{
   display: flex;
   align-items: center;
