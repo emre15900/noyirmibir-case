@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { Flex, Spacer, Box, Image } from "@chakra-ui/react";
+import { Flex, Spacer, Box, Image, Menu, MenuButton } from "@chakra-ui/react";
+import { HamburgerIcon } from '@chakra-ui/icons'
 import logo from "../../images/logo.svg";
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header({ IconButton}) {
   return (
     <div className={styles.header}>
       <Flex>
@@ -30,6 +31,11 @@ function Header() {
           <Link to="/service-help">
             <Box p="4">Service & Help</Box>
           </Link>
+        </Box>
+        <Box className={styles.header_menu}>
+          <Menu>
+            HAMBURGER MENU
+          </Menu>
         </Box>
       </Flex>
     </div>

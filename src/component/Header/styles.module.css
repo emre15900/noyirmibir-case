@@ -1,5 +1,5 @@
-.header{
-  background: #FFFFFF;
+.header {
+  background: #ffffff;
 }
 .header_right {
   display: flex;
@@ -12,4 +12,28 @@
   line-height: 18px;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media only screen and (min-width: 948px) {
+  .header_menu{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 948px) {
+  .header_right {
+    display: none;
+  }
+  .header_menu{
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 761px) {
+}
+
+@media only screen and (max-width: 599px) {
+}
+
+@media only screen and (max-width: 568px) {
 }
