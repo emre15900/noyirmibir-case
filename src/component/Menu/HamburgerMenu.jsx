@@ -31,6 +31,7 @@ function HamburgerMenu() {
               <Image src={logo} alt="product" />
             </Link>
           </li>
+          <hr />
           <li>
             <Link to="/">
               <Text>Show All Tyres</Text>

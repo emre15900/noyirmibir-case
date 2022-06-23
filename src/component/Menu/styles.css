@@ -28,6 +28,7 @@
 .menuNav.showMenu {
   width: 85%;
   padding: 0 40px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 45%);
 }
 
 .navBar a {
@@ -54,3 +55,6 @@
     margin-top: 2rem;
   }
   
+  .navBar hr{
+    margin: 15px 0;
+  }
