@@ -25,6 +25,10 @@ function SwiperModule() {
         breakpoints={{
             320: {
               slidesPerView: 1,
+              spaceBetween: 150,
+            },
+            552: {
+              slidesPerView: 1,
               spaceBetween: 70,
             },
             768: {
