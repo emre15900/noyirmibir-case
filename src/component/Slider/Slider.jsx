@@ -11,7 +11,8 @@ function Slider() {
         <Image src={slider} alt="product" />
         <Box className={styles.slider_over}>
           <Text className={styles.slider_text}>
-            Nothing can stop <br /> you
+            <span> Nothing can stop </span>
+            <span>you</span>
           </Text>
           <Button text={"FIND OUT MORE"} className={"slider_button"} />
         </Box>
