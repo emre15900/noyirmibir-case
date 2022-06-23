@@ -28,9 +28,19 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1420px) {
+  .video_hood {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1292px) {
   .video_section {
     height: 65vh;
+  }
+  .video_head button {
+    padding: 15px 35px !important;
+    font-size: 14px;
   }
 }
 
@@ -47,6 +57,15 @@
   .video_page {
     padding: 40px 20px;
   }
+  
+.video_head {
+    display: flex;
+    flex-direction: column;
+  }
+  .video_head button {
+    margin-top: 25px;
+  }
+  
 }
 
 @media only screen and (max-width: 628px) {

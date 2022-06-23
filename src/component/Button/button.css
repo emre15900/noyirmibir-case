@@ -10,6 +10,7 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #ed1c24;
+  white-space: nowrap;
 }
 
 .slider_button.red {
